@@ -1,0 +1,182 @@
+/*--------------------------------------------------
+	=============== Autorun File ===============
+	*** Copyright (c) 2012-2019 by DrVrej, All rights reserved. ***
+	No parts of this code or any of its contents may be reproduced, copied, modified or adapted,
+	without the prior written consent of the author, unless otherwise indicated for stand-alone materials.
+--------------------------------------------------*/
+------------------ Addon Information ------------------
+local PublicAddonName = "Left 4 Dead Common Infected SNPCs"
+local AddonName = "Left 4 Dead Common Infected"
+local AddonType = "SNPC"
+local AutorunFile = "autorun/vj_l4dci_autorun.lua"
+-------------------------------------------------------
+local VJExists = file.Exists("lua/autorun/vj_base_autorun.lua","GAME")
+if VJExists == true then
+	include('autorun/vj_controls.lua')
+
+	local vCat = "Left 4 Dead"
+	
+	-- Male
+	VJ.AddNPC("Common Infected (Male)","npc_vj_l4d_com_male",vCat)
+	VJ.AddNPC("Common Infected (Soldier)","npc_vj_l4d_com_m_soldier",vCat)
+	VJ.AddNPC("Common Infected (Police)","npc_vj_l4d_com_m_police",vCat)
+	VJ.AddNPC("Common Infected (Hospital)","npc_vj_l4d_com_m_hospital",vCat)
+	VJ.AddNPC("Common Infected (Airport)","npc_vj_l4d_com_m_airport",vCat)
+		-- Uncommon
+		VJ.AddNPC("Uncommon Infected (CEDA)","npc_vj_l4d_com_m_ceda",vCat)
+		VJ.AddNPC("Uncommon Infected (Jimmy)","npc_vj_l4d_com_m_jimmy",vCat)
+		VJ.AddNPC("Uncommon Infected (Fallen Survivor)","npc_vj_l4d_com_m_fallsur",vCat)
+		VJ.AddNPC("Uncommon Infected (Clown)","npc_vj_l4d_com_m_clown",vCat)
+		VJ.AddNPC("Uncommon Infected (Mud Men)","npc_vj_l4d_com_m_mudmen",vCat)
+		VJ.AddNPC("Uncommon Infected (Worker)","npc_vj_l4d_com_m_worker",vCat)
+		VJ.AddNPC("Uncommon Infected (Riot)","npc_vj_l4d_com_m_riot",vCat)
+	
+	-- Female
+	VJ.AddNPC("Common Infected (Female)","npc_vj_l4d_com_female",vCat)
+	VJ.AddNPC("Common Infected (Nurse)","npc_vj_l4d_com_fem_nurse",vCat)
+	
+	-- Spawners
+	VJ.AddNPC("Random Common Infected","sent_vj_l4d_cominf",vCat)
+	VJ.AddNPC("Random Common Infected Spawner","sent_vj_l4d_cominf_sp",vCat)
+	VJ.AddNPC("AI Director","sent_vj_l4d_director",vCat,true)
+	
+	-- Weapons
+	VJ.AddNPCWeapon("VJ_L4D_Pipe_Bomb","weapon_vj_l4d_pipebomb")
+	VJ.AddWeapon("Pipe Bomb","weapon_vj_l4d_pipebomb",true,vCat)
+	
+	game.AddAmmoType({name="pipebomb",dmgtype=DMG_BLAST})
+	
+	-- Particles --
+	VJ.AddParticle("particles/vj_l4d_com.pcf",{
+		"vj_l4d_com_puke",
+	})
+	
+	-- Precache Models --
+	util.PrecacheModel("models/cpthazama/l4d1/anim_common.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_male_pilot.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_male_rural01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_male_suit.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_military_male01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_patient_male01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_police_male01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_surgeon_male01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_tsaagent_male01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_female01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d1/common/common_female_nurse01.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/cim_faceplate.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/cim_riot_faceplate.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_ceda.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_clown.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_fallen_survivor.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_jimmy.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_mud.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_riot.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_roadcrew.mdl")
+	util.PrecacheModel("models/cpthazama/l4d2/common/common_male_roadcrew_rain.mdl")
+	
+	-- ConVars --
+	VJ.AddConVar("vj_l4d_com_h",50)
+	VJ.AddConVar("vj_l4d_com_h_police",60)
+	VJ.AddConVar("vj_l4d_com_h_soldier",70)
+	VJ.AddConVar("vj_l4d_com_h_fallsur",150)
+	VJ.AddConVar("vj_l4d_com_h_riot",250)
+	VJ.AddConVar("vj_l4d_com_h_jimmy",1000)
+	VJ.AddConVar("vj_l4d_com_d",10)
+	
+	-- Menu --
+	VJ.AddConVar("vj_l4d_alllowclimbing",0,{FCVAR_ARCHIVE})
+	
+	VJ.AddConVar("vj_l4d_director_enabled",1)
+	VJ.AddConVar("vj_l4d_director_maxci",80)
+	VJ.AddConVar("vj_l4d_director_mobcount",35)
+	VJ.AddConVar("vj_l4d_director_spawnmax",2000)
+	VJ.AddConVar("vj_l4d_director_spawnmin",650)
+	VJ.AddConVar("vj_l4d_director_mobchance",100)
+	VJ.AddConVar("vj_l4d_director_mobcooldownmin",120)
+	VJ.AddConVar("vj_l4d_director_mobcooldownmax",180)
+	VJ.AddConVar("vj_l4d_director_delaymin",0.85)
+	VJ.AddConVar("vj_l4d_director_delaymax",3)
+	VJ.AddClientConVar("vj_l4d_director_music",1)
+	VJ.AddClientConVar("vj_l4d_director_musicvolume",0.1)
+	
+	if CLIENT then
+		hook.Add("PopulateToolMenu", "VJ_ADDTOMENU_L4D", function()
+			spawnmenu.AddToolMenuOption("DrVrej", "SNPC Configures", "Left 4 Dead - Director", "Left 4 Dead - Director", "", "", function(Panel)
+				Panel:AddControl("Checkbox", {Label = "Enable Music?", Command = "vj_l4d_director_music"})
+				Panel:AddControl("Slider", { Label 	= "Music Volume", Command = "vj_l4d_director_musicvolume", Type = "Float", Min = "0.1", Max = "0.9"})
+				if !game.SinglePlayer() then
+				if !LocalPlayer():IsAdmin() or !LocalPlayer():IsSuperAdmin() then
+					Panel:AddControl( "Label", {Text = "You are not an admin!"})
+					Panel:ControlHelp("Notice: Only admins can change rest of the settings.")
+					return
+					end
+				end
+				Panel:AddControl("Label", {Text = "Notice: Only admins can change this settings."})
+				Panel:AddControl("Checkbox", {Label = "Enable AI Director processing?", Command = "vj_l4d_director_enabled"})
+				Panel:AddControl("Slider", { Label 	= "Max Common Infected", Command = "vj_l4d_director_maxci", Type = "Float", Min = "5", Max = "400"})
+				Panel:AddControl("Slider", { Label 	= "Min Distance they can spawn from players", Command = "vj_l4d_director_spawnmin", Type = "Float", Min = "150", Max = "30000"})
+				Panel:AddControl("Slider", { Label 	= "Max Distance they can spawn from players", Command = "vj_l4d_director_spawnmax", Type = "Float", Min = "150", Max = "30000"})
+				Panel:AddControl("Slider", { Label 	= "Min time between spawns", Command = "vj_l4d_director_delaymin", Type = "Float", Min = "0.1", Max = "15"})
+				Panel:AddControl("Slider", { Label 	= "Max time between spawns", Command = "vj_l4d_director_delaymax", Type = "Float", Min = "0.2", Max = "15"})
+				Panel:AddControl("Slider", { Label 	= "Max Mob Common Infected", Command = "vj_l4d_director_mobcount", Type = "Float", Min = "5", Max = "400"})
+				Panel:AddControl("Slider", { Label 	= "Chance that a mob will appear", Command = "vj_l4d_director_mobchance", Type = "Float", Min = "1", Max = "500"})
+				Panel:AddControl("Slider", { Label 	= "Min cooldown time for mob spawns", Command = "vj_l4d_director_mobcooldownmin", Type = "Float", Min = "1", Max = "800"})
+				Panel:AddControl("Slider", { Label 	= "Max cooldown time for mob spawns", Command = "vj_l4d_director_mobcooldownmax", Type = "Float", Min = "1", Max = "800"})
+			end, {})
+		
+			spawnmenu.AddToolMenuOption("DrVrej", "SNPC Configures", "Left 4 Dead", "Left 4 Dead", "", "", function(Panel)
+				if !game.SinglePlayer() then
+				if !LocalPlayer():IsAdmin() or !LocalPlayer():IsSuperAdmin() then
+					Panel:AddControl( "Label", {Text = "You are not an admin!"})
+					Panel:ControlHelp("Notice: Only admins can change this settings")
+					return
+					end
+				end
+				Panel:AddControl("Label", {Text = "Notice: Only admins can change this settings."})
+				Panel:AddControl( "Label", {Text = "WARNING: Only future spawned SNPCs will be affected!"})
+				Panel:AddControl("Button",{Text = "Reset Everything", Command = "vj_l4d_alllowclimbing 0"})
+				Panel:AddControl("Checkbox", {Label = "Enable Climbing", Command = "vj_l4d_alllowclimbing"})
+				Panel:ControlHelp("WARNING: Enabling climbing will cause heavy performance drops!")
+			end, {})
+		end)
+	end
+	
+	VJ_L4D_NODEPOS = {}
+	hook.Add("EntityRemoved","VJ_AddNodes_L4D",function(ent)
+		if ent:GetClass() == "info_node" then
+			table.insert(VJ_L4D_NODEPOS,ent:GetPos())
+		end
+	end)
+	
+-- !!!!!! DON'T TOUCH ANYTHING BELOW THIS !!!!!! -------------------------------------------------------------------------------------------------------------------------
+	AddCSLuaFile(AutorunFile)
+	VJ.AddAddonProperty(AddonName,AddonType)
+else
+	-- if (CLIENT) then
+	-- 	chat.AddText(Color(0,200,200),PublicAddonName,
+	-- 	Color(0,255,0)," was unable to install, you are missing ",
+	-- 	Color(255,100,0),"VJ Base!")
+	-- end
+	-- timer.Simple(1,function()
+	-- 	if not VJF then
+	-- 		if (CLIENT) then
+	-- 			VJF = vgui.Create("DFrame")
+	-- 			VJF:SetTitle("ERROR!")
+	-- 			VJF:SetSize(790,560)
+	-- 			VJF:SetPos((ScrW()-VJF:GetWide())/2,(ScrH()-VJF:GetTall())/2)
+	-- 			VJF:MakePopup()
+	-- 			VJF.Paint = function()
+	-- 				draw.RoundedBox(8,0,0,VJF:GetWide(),VJF:GetTall(),Color(200,0,0,150))
+	-- 			end
+				
+	-- 			local VJURL = vgui.Create("DHTML",VJF)
+	-- 			VJURL:SetPos(VJF:GetWide()*0.005, VJF:GetTall()*0.03)
+	-- 			VJURL:Dock(FILL)
+	-- 			VJURL:SetAllowLua(true)
+	-- 			VJURL:OpenURL("https://sites.google.com/site/vrejgaming/vjbasemissing")
+	-- 		elseif (SERVER) then
+	-- 			timer.Create("VJBASEMissing",5,0,function() print("VJ Base is Missing! Download it from the workshop!") end)
+	-- 		end
+	-- 	end
+	-- end)
+end

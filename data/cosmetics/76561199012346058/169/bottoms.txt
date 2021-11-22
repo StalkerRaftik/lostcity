@@ -1,0 +1,1 @@
+{"Брюки/humans/modern/male/sheet_03":{"bodygroup":"pant"}}

@@ -1,0 +1,1 @@
+{"ncustoms":{"models/humans/modern/male/sheet_22":{"bodygroup":"polo"},"models/citizen/body/suit_sheet":{"bodygroup":"suit"}},"customs":[]}

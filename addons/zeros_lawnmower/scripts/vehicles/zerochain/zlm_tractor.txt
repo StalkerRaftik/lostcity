@@ -1,0 +1,142 @@
+"vehicle"
+{
+	"wheelsperaxle"	"2"
+	"body"
+	{
+		"countertorquefactor"	"0"
+		"massCenterOverride"	"0 10 10"
+		"massoverride"			"900"
+		"addgravity"			"0.50"
+		"maxAngularVelocity"	"0"
+	}
+	"engine"
+	{
+		"horsepower"		"500"
+		"maxrpm"			"3000"
+		"maxspeed"			"12"
+		"maxReverseSpeed"	"7"
+		"autobrakeSpeedGain"	"0.1"
+		"autobrakeSpeedFactor"	"0.2"
+		"autotransmission"	"1"
+		"autotransmission"	"1"
+		"axleratio"			"4.56"
+		"gear"				"1.86"
+		"gear"				"1.59"
+		"shiftuprpm"		"1500"
+		"shiftdownrpm"		"1600"
+	}
+	"steering"
+	{
+		"degreesSlow"		"30"
+		"degreesFast"		"22"
+		"degreesBoost"		"8"
+		"steeringExponent"	"1.4"
+		"slowcarspeed"		"30"
+		"fastcarspeed"		"60"
+		
+		"slowSteeringRate"					"3.0"	
+		"steeringRestRateSlow"				"2.5"	
+		"fastSteeringRate"					"2.0"
+		"steeringRestRateFast"				"1.25"
+		"turnThrottleReduceSlow" 			"0.01"
+		"turnThrottleReduceFast" 			"0.5"
+		"brakeSteeringRateFactor"			"0.5"
+		"throttleSteeringRestRateFactor"	"1.0"
+		"boostSteeringRestRateFactor"		"1.7"
+		"boostSteeringRateFactor"			"1.7"
+
+		"powerSlideAccel"	"250"
+
+		"skidallowed"		"0"
+		"dustcloud"			"0"
+	}
+	
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"13"
+			"mass"		"200"
+			"damping"	"0"
+			"rotdamping"	"0.0"
+			"material"	"jeeptire"
+			"skidmaterial"	"slidingrubbertire"
+			"brakematerial" "brakingrubbertire"
+		}
+		"suspension"
+		{
+			"springConstant"			"80"
+			"springDamping"				"1"
+			"stabilizerConstant"		"0"
+			"springDampingCompression"	"6.6"
+			"maxBodyForce"				"20"
+		}
+
+		"torquefactor"	"0.35"
+		"brakefactor"	"0.5"
+	}
+
+	"axle"
+	{
+		"wheel"
+		{
+			"radius"	"20"
+			"mass"		"200"
+			"damping"	"0"
+			"rotdamping"	"0.0"
+			"material"	"jeeptire"
+			"skidmaterial"	"slidingrubbertire"
+			"brakematerial" "brakingrubbertire"
+		}
+		"suspension"
+		{
+			"springConstant"			"80"
+			"springDamping"				"1"
+			"stabilizerConstant"		"0"
+			"springDampingCompression"	"6.6"
+			"maxBodyForce"				"22"
+		}
+		"torquefactor"	"0.3"
+		"brakefactor"	"0.5"
+	}
+}
+
+"vehicle_sounds"
+{
+	// List gears in order from lowest speed to highest speed
+
+	"gear"
+	{
+		"max_speed"		"0.08"
+		"speed_approach_factor" "1.0"
+	}
+
+	"gear"
+	{
+		"max_speed"		"0.32"
+		"speed_approach_factor" "0.05"
+	}
+	"gear"
+	{
+		"max_speed"		"0.48"
+		"speed_approach_factor" "0.052"
+	}
+	"crashsound"
+	{
+		"min_speed"			"350"
+		"min_speed_change"	"250"
+		"sound"				"zlm_tractor_impact_medium"
+		"gear_limit"		"1"
+	}
+	"crashsound"
+	{
+		"min_speed"			"450"
+		"min_speed_change"	"350"
+		"sound"				"zlm_tractor_impact_heavy"
+	}
+
+	
+	"skid_lowfriction"		"zlm_tractor_skid_lowfriction"
+	"skid_normalfriction"		"zlm_tractor_skid_normalfriction"
+	"skid_highfriction"		"zlm_tractor_skid_highfriction"
+}

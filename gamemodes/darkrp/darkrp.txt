@@ -1,0 +1,8 @@
+"darkrpa"
+{
+	"title"  		"DarkRP"
+	"base"			"base"
+	"maps"			"^rp_"
+	"category"		"rp"
+   	"menusystem"	"1"
+}

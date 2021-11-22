@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_lawnmower/tractor/zlm_tractor_seat_lod02"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+}

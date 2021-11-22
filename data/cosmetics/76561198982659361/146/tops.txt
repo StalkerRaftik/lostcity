@@ -1,0 +1,1 @@
+{"ncustoms":{"models/citizen/body/suit_sheet":{"bodygroup":"suit"}},"customs":[]}

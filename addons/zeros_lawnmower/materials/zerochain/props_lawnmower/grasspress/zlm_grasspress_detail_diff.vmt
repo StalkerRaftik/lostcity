@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"zerochain/props_lawnmower/grasspress/zlm_grasspress_detail_diff"
+	"$bumpMap"				"zerochain/props_lawnmower/grasspress/zlm_grasspress_detail_nrm"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	$phong 1
+	$phongboost 0.25
+
+	$phongfresnelranges "[1 2 3]"
+	$phongexponent 5
+	$phongalbedotint 1	
+	
+	$detail "zerochain/props_lawnmower/zlm_noise01"
+	$detailscale 10
+	$detailblendfactor 2
+	$detailblendmode 0
+	
+	$envmap env_cubemap
+	$envmapsaturation 1
+	$envmapcontrast 1
+	$envmapfresnel 1
+	$envmapFresnelMinMaxExp "[1 2 3]"
+	$envmaptint "[0.025 0.025 0.025]"
+
+	$rimlight               1
+		$rimlightexponent      25
+		$rimlightboost         0.1
+}

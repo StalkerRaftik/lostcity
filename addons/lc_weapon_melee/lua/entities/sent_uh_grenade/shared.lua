@@ -1,0 +1,6 @@
+ENT.Type = "anim"
+ENT.PrintName			= "Grenade"
+ENT.Author			= ""
+ENT.Contact			= ""
+ENT.Purpose			= ""
+ENT.Instructions			= ""

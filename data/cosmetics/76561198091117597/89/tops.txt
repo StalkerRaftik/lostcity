@@ -1,0 +1,1 @@
+{"ncustoms":{"models/humans/enhancedshortsleeved/citizen_sheet":{"bodygroup":"tee"},"models/humans/modern/male/sheet_01":{"bodygroup":"polo"},"models/humans/modern/male/sheet_23":{"bodygroup":"polo"},"models/humans/modern/male/sheet_21":{"bodygroup":"polo"}},"customs":[]}

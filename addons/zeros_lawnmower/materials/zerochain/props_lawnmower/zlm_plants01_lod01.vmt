@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture"			"zerochain/props_lawnmower/zlm_plants01_lod"
+	
+	$alphatest 1
+    $allowalphatocoverage 1
+    $alphatestreference 0.1
+	"$nocull" 1
+}

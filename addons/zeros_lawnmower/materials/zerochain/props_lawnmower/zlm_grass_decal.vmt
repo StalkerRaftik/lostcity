@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_lawnmower/zlm_grass_decal"
+	
+	//"$AlphaTest" "1"
+	//"$AlphaTestReference" "0.55"
+	//"$AllowAlphaToCoverage" "1"
+	//"$alpha" 1
+	
+	"$Translucent" 1
+	
+	"$model" 1
+}

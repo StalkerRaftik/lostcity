@@ -1,0 +1,1 @@
+{"models/humans/modern/male/sheet_05":{"bodygroup":"pant"},"models/humans/modern/male/sheet_29":{"bodygroup":"pant"}}

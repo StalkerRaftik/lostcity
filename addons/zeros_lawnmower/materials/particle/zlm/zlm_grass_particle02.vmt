@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "particle/zlm/zlm_grass_particle02"
+	//"$additive" "1"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+}

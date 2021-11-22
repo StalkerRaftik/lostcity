@@ -1,0 +1,1 @@
+{"ncustoms":{"models/humans/modern/male/sheet_22":{"bodygroup":"polo"},"models/bloo_ltcom_zel/citizens/prague_civ_rioter_body_col_a":{"bodygroup":"jacket"}},"customs":[]}

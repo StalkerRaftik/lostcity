@@ -1,0 +1,3 @@
+-- net.Receive("SendDonateSkinsToClient", function()
+-- 	LocalPlayer().dskins = net.ReadTable()
+-- end)

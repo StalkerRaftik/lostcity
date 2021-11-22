@@ -1,0 +1,162 @@
+Tue Jun 29 15:03:04 2021
+служу ссср
+STEAM_0:0:453708717
+76561198867683162
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:123: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:63: in function 'runcommand'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:86: in function <gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:70>
+
+Tue Jun 29 15:03:30 2021
+служу ссср
+STEAM_0:0:453708717
+76561198867683162
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:123: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:63: in function 'runcommand'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:86: in function <gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:70>
+
+Wed Jul  7 12:12:18 2021
+абузер мк
+STEAM_0:1:186596828
+76561198333459385
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:132: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:63: in function 'runcommand'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:86: in function <gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:70>
+
+Wed Jul  7 12:12:24 2021
+абузер мк
+STEAM_0:1:186596828
+76561198333459385
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:132: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:63: in function 'runcommand'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:86: in function <gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:70>
+
+Wed Jul  7 12:14:10 2021
+абузер мк
+STEAM_0:1:186596828
+76561198333459385
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:132: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:63: in function 'runcommand'
+	gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:86: in function <gamemodes/darkrp/gamemode/core/chat/chat_sv.lua:70>
+
+Mon Aug 16 14:57:41 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:58:08 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:58:12 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:58:24 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:59:32 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:59:33 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:59:38 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:59:40 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 14:59:41 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 15:06:25 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 15:06:26 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 15:06:27 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+
+Mon Aug 16 15:06:27 2021
+kirussell
+STEAM_0:0:78387029
+76561198117039786
+stack traceback:
+	gamemodes/darkrp/gamemode/core/player/data_sv.lua:142: in function 'IsLoaded'
+	gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:8: in function <gamemodes/darkrp/gamemode/core/chat/commands_sv.lua:7>
+	lua/includes/modules/concommand.lua:54: in function <lua/includes/modules/concommand.lua:49>
+

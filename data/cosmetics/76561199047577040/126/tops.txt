@@ -1,0 +1,1 @@
+{"ncustoms":{"models/humans/modern/male/sheet_22":{"bodygroup":"polo"},"models/humans/modern/male/sheet_05":{"bodygroup":"polo"},"models/humans/modern/male/sheet_20":{"bodygroup":"polo"},"models/humans/modern/male/sheet_27":{"bodygroup":"polo"}},"customs":[]}

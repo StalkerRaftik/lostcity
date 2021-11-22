@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"zerochain/props_lawnmower/trailer/zlm_trailer_diff_lod02"
+	
+
+	"$surfaceprop" "metal"
+	"$model" 1
+}

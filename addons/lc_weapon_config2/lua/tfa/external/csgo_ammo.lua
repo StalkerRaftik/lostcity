@@ -1,0 +1,10 @@
+TFA.AddAmmo("csgo_decoy", "Decoy")
+TFA.AddAmmo("csgo_frag", "Fragmentation Grenade")
+TFA.AddAmmo("csgo_flash", "Flashbang")
+TFA.AddAmmo("csgo_incend", "Incendiary Grenade")
+TFA.AddAmmo("csgo_molly", "Molotov")
+TFA.AddAmmo("csgo_smoke", "Smoke Grenade")
+--NEW AMMOS
+TFA.AddAmmo("csgo_sonarbomb", "Tactical Awareness Grenade")
+TFA.AddAmmo("csgo_medishot", "Medi-Shot")
+TFA.AddAmmo("csgo_taser", "Zeus x27")
